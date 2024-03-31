@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+ height: 4rem;
+ overflow-x: hidden;
+ 
+}
+/* header section */
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    height: 40px;
+    width: 200px;
+    margin-left: 15px;
+}
+.bars{
+    font-size: 23px;
+   margin-left: 19px;
+   margin-right: 19px;
+    
+}
+.logo{
+    height: 35px;
+    width: 120px;
+    margin-left: 10px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 700px;
+}
+.Search-bar{
+    width: 80%;
+    height: 40px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    margin-left: 25px;
+    padding-left: 14px;
+    padding-top: 3px;
+    border: 1.5px solid rgb(213, 209, 209);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.Search-bar::placeholder{
+    font-size: 17px;
+    
+}
+.Button-main{
+ height: 44px;
+ width: 64px;
+ border-top-right-radius: 22px;
+ border-bottom-right-radius: 22px;
+ border: 1.5px solid rgb(213, 209, 209);
+ margin-left: -1px;
+ }
+
+.magnifying{
+    font-size: 16px;
+}
+.magnifyingo{
+    font-size: 18px;
+    display: none;
+}
+.voicebutton{
+    margin-left: 18px;
+}
+.voicebutton:hover{
+    background-color: rgba(238, 234, 234, 0.526);
+}
+.voicebutton{
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    border: none;
+    background-color: rgb(238, 234, 234);
+}
+
+.voicelogo{
+    font-size: 19px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    font-size: 23px;
+    margin-right: 8px;
+}
+.mainbuttonkaran{
+   height: 35px;
+   background-color: white;
+   border: none;
+   
+}
+.karanpic{
+    height: 35px;
+    width: 32px;
+    border-radius: 17.5px;
+    
+}
+
+/* Main section starts */
+.firstthreebuttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 19px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size:14px;
+    width: 230px;
+    height: 36px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.pick{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: center;
+    height: 21px;
+    width: 21px;
+}
+.picko{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size:14px;
+    width: 230px;
+    height: 35px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 11px;
+    background-color: white;
+}
+.line{
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 1px;
+    width:250px;
+    background-color: rgb(213, 213, 213);
+ }
+.arrowleft{
+    position: relative;
+    left: 60px;
+   font-size: larger;
+   height: 18px;
+    width: 18px;
+    font-weight: 500;
+}
+.new{
+    position: relative;
+    right: 19px;
+  font-size: 20px;
+ }
+ .linetwo{
+    margin-top: 5px;
+    height: 1px;
+    width:270px;
+    background-color: rgb(213, 213, 213);
+ }
+ h3{
+    margin-top: 1.1rem;
+    margin-left: 29px;
+    font-size: 1.1rem;
+    font-weight: 500;
+ }
+.shark{
+    border-radius: 1rem;
+    height: 1.6rem;
+    width: 1.6rem;
+    font-size: larger;
+ }
+.endbutton{
+    position: relative;
+    bottom: 0.6rem;
+    right: 5px;
+ }
+ /*below navbar styling*/
+.severalbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 3.3rem;
+    left: 16rem;
+    height: 56px;
+    width: 1260px;
+}
+.All:hover{
+    background-color:  #00000035;
+}
+.All{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 510;
+    border-radius: 8px;
+    height: 32px;
+    background-color: #0000000D;
+}
+.compass{
+    display: none;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #0000000D;
+    height: 32px;
+    width: 42px;
+}
+.dark{
+    background-color: #0F0F0F;
+    color: white;
+    width: 41px;
+}
+.music{
+    width: 62.18px;
+}
+.mixes{
+    width: 62.1px;
+}
+.gaming{
+    width: 73px;
+}
+.live{
+    width: 49px;
+}
+.editing{
+    width: 67px;
+
+}
+.Animatedfilms{
+    width: 120px;
+}
+.computer{
+    width: 93px;
+}
+.courses{
+    width: 75.39px;
+    
+}
+.boddy{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   position: relative;
+   bottom: 37.7rem;
+   left: 265px;
+    height: 700px;
+    width: 1260px;
+   
+}
+.thumbnailf{
+    height: 219px;
+    width: 385px;
+    border-radius: 12px;
+}
+.thumbnailone{
+    height: 100px;
+    width: 389px;
+}
+.childdiv{
+    height: 100px;
+    width: 389px;
+    
+}
+.childofchild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 550;
+    margin-top: 12px;
+    
+}
+.set{
+    height: 35px;
+    width: 35px;
+    border-radius: 177px;
+    margin-right: 9px;
+    
+}
+span{
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    position: relative;
+    left: 45px;
+    top: 7px;
+}
